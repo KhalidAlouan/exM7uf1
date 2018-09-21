@@ -8,25 +8,31 @@ $tipus_de_i = gettype( $i );
 $tipus_de_d = gettype( $d );
 $tipus_de_c = gettype( $c );
 $tipus_de_b = gettype( $b );
+
+$l= gettype($tipus_de_i);
+$s= gettype($tipus_de_d);
+$m= gettype($tipus_de_c);
+$k= gettype($tipus_de_c);
+
 echo "La variable \$i 
       conté el valor $i 
-      i és del tipus $tipus_de_i
-      el valor de gettype es: $tipus_de_i <br>";
+      i és del tipus $tipus_de_i <br>
+      El valor de gettype de la variable i es: $l <br>";
 
 echo "La variable \$d
       conté el valor $d
-      i és del tipus $tipus_de_d
-      el valor de gettype es: $tipus_de_d <br>";
+      i és del tipus $tipus_de_d <br>
+      El valor de gettype de la variable d es: $s <br>";
 
 echo "La variable \$c
       conté el valor $c
-      i és del tipus $tipus_de_c
-      el valor de gettype es: $tipus_de_c <br>";
+      i és del tipus $tipus_de_c <br>
+      El valor de gettype de la variable c es: $m <br>";
 
 echo "La variable \$b
       conté el valor $b
-      i és del tipus $tipus_de_b
-      el valor de gettype es: $tipus_de_b <br>";
+      i és del tipus $tipus_de_b <br>
+      El valor de gettype de la variable b es: $k <br>";
 ?>
 
 <!--Es para que no muestre el valor de la variable i-->
