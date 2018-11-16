@@ -33,7 +33,7 @@
 
  	?>
  	<table>
- 	<thead><td colspan="4" align="center" bgcolor="cyan">Llistat de ciutats</td></thead>
+ 	<thead><td colspan="4" align="center" bgcolor="cyan">Ciudades&Paises</td></thead>
  	<?php
 
  	while( $registre = mysqli_fetch_assoc($resultat) )
